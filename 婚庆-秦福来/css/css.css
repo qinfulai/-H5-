@@ -1,0 +1,844 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.clear {
+    clear: both
+}
+
+#nav {
+    height: 80px;
+    background-color: #1C1B19
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.nav_left img {
+    height: 80px;
+    width: 80px;
+    margin-right: 70px;
+    margin-left: 10px
+}
+
+.nav_right ul li {
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    line-height: 80px;;
+    margin-left: 30px;
+    width: 100px;
+    cursor: pointer
+}
+
+.nav_right ul li:hover {
+    background-color: red
+}
+
+#header {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.introduce_left {
+    line-height: 40px;
+    width: 120px;
+    font-size: 16px;
+    background-color: #D52817;
+    border-radius: 15px 15px 0 0;
+    color: white;
+    text-align: center
+}
+
+.introduce_right {
+    line-height: 40px;
+    width: 120px;
+    font-size: 16px;
+    background-color: #838383;
+    border-radius: 15px 15px 0 0;
+    color: white;
+    text-align: center
+}
+
+.hyxn {
+    height: 250px;
+    width: 800px;
+    background-color: #F7F7F7
+}
+
+.hyxn_left {
+    height: 210px;
+    width: 350px;
+    margin: 20px
+}
+
+.hyxn_left img {
+    height: 210px;
+    width: 350px
+}
+
+.hyxn_right {
+    height: 210px;
+    width: 390px;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 40px
+}
+
+.header_one_right {
+    height: 250px;
+    width: 350px;
+    background-color: #F7F7F7
+}
+
+.one_right {
+    margin-left: 50px
+}
+
+.header_one_right video {
+    height: 250px;
+    width: 340px;
+    margin-top: -20px
+}
+
+.wedding {
+    position: relative;
+    width: 1200px;
+    height: 320px;
+    overflow: hidden;
+    margin: 20px 0
+}
+
+.wedding ul {
+    width: 3000px;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    position: absolute;
+    left: 0;
+}
+
+.wedding ul li {
+    float: left;
+    width: 340px;
+    height: 300px;
+    background-color: #ECF7F7;
+    margin: 0 29px
+}
+
+.wedding ul li img {
+    height: 240px;
+    width: 300px;
+    margin-top: 20px
+}
+
+.header_three {
+    margin-bottom: 30px
+}
+
+.header_three_left {
+    height: 380px;
+    width: 598px;
+}
+
+.header_three_left img {
+    margin-left: 70px;
+    margin-top: 20px
+}
+
+.car_one {
+    line-height: 40px;
+    width: 130px;
+    background-color: #55CDCB;
+    text-align: center;
+    color: white;
+    display: block;
+    margin-left: 70px;
+    font-size: 18px
+}
+
+.car_two {
+    margin-top: 10px;
+    width: 330px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #55CDCB
+}
+
+.header_three_right {
+    height: 380px;
+    width: 598px
+}
+
+.header_three_right img {
+    margin-left: 70px;
+    margin-top: 20px
+}
+
+.header_three_left hr, .header_three_right hr {
+    margin-left: 70px;
+    border-color: #55CDCB;
+    width: 460px;
+    margin-top: 30px
+}
+
+.header_four {
+    width: 1200px;
+    height: 500px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.header_four h1 {
+    font-size: 30px;
+    margin: 15px
+}
+
+.header_four span {
+    font-size: 22px;
+    color: #8C8989
+}
+
+.header_four p {
+    color: #1AD3D6
+}
+
+.exhibition {
+    height: 260px;
+    width: 1200px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative
+}
+
+.exhibition ul li {
+    height: 250px;
+    width: 300px;
+    float: left
+}
+
+.exhibition ul {
+    width: 3000px;
+    position: absolute;
+    left: 0;
+}
+
+.exhibition ul li img {
+    height: 220px;
+    width: 280px;
+    margin-top: 20px
+}
+
+.content_left {
+    height: 500px;
+    width: 500px;
+    font-size: 20px;
+    line-height: 50px;
+    padding: 10px
+}
+
+.content_left h1, .content_right h1 {
+    font-size: 30px;
+    color: #A658E0
+}
+
+.content_left .content_left_one input {
+    height: 30px;
+    width: 350px;
+    background-color: #F5F5F5;
+    margin-left: 100px
+}
+
+.content_left .content_left_four input {
+    height: 150px;
+    width: 350px;
+    margin-left: 100px
+}
+
+.content_left .content_left_five input {
+    height: 30px;
+    width: 80px;
+    margin-left: 80px;
+    background-color: #F5F5F5
+}
+
+.content_right {
+    margin-left: 200px;
+    padding: 10px;
+    line-height: 35px
+}
+
+.content_right ul li {
+    font-size: 20px
+}
+
+.UL {
+    height: 400px;
+    position: relative;
+    width: 350px;
+    overflow: hidden
+}
+
+.UL ul {
+    top: 0;
+    position: absolute
+}
+
+.submit input {
+    width: 100px;
+    height: 30px;
+    background-color: #00A7EA;
+    margin-left: 180px;
+    color: black
+}
+
+#footer {
+    height: 200px;
+    background-color: #1C1B19;
+    padding-top: 50px;
+    text-align: center
+}
+
+.footer_one img {
+    height: 150px;
+}
+
+.footer_two {
+    margin: 0 200px;
+    font-size: 18px;
+    color: white;
+    line-height: 28px
+}
+
+.footer_three {
+    color: white;
+    font-size: 16px;
+    text-align: center
+}
+
+.footer_three img {
+    height: 120px
+}
+
+/*侧边栏*/
+.advertising {
+    height: 220px;
+    width: 100px;
+    border: 1px solid lavender;
+    position: fixed;
+    right: 2%;
+    top: 66%;;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px
+}
+
+.advertising a {
+    color: black
+}
+
+.advertising img {
+    width: 100px;
+    margin: 20px 0
+}
+
+/* 公司简介*/
+.experience_left {
+    height: 300px;
+    width: 600px;
+}
+
+.experience_left p {
+    font-size: 26px;
+    margin-bottom: 20px
+}
+
+.experience_left span {
+    font-size: 18px;
+    line-height: 30px
+}
+
+.experience_right {
+    height: 300px;
+    width: 500px;
+}
+
+.experience_right video {
+    height: 270px
+}
+
+.experience_right p {
+    font-size: 26px
+}
+
+.team {
+    height: 200px;
+    width: 1200px;
+    color: #A19B92;;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 16px
+}
+
+.team img {
+    height: 60px
+}
+
+.team_one h2 {
+    font-size: 24px;
+    margin: 10px 0
+}
+
+.team_one {
+    width: 300px;
+}
+
+.service {
+    text-align: center;
+    font-size: 18px;
+    color: #8D8E93;
+    margin-top: 30px
+}
+
+.service h1 {
+    font-size: 30px;
+    color: black
+}
+
+.service_one_right, .service_two_left {
+    line-height: 50px;
+    padding: 10px;
+    height: 280px;
+    width: 475px;
+    background-color: #F7F7F7
+}
+
+.service_one_right p, .service_two_left p {
+    font-size: 26px;
+    color: black;
+    margin-top: 30px
+}
+
+.scene {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.scene p {
+    font-size: 30px;
+    margin-bottom: 10px
+}
+
+.scene ul li {
+    width: 286px;
+    height: 260px;
+    float: left;
+    margin: 5px;
+    font-size: 26px;
+    background-color: #F2EDED
+}
+
+.scene ul li:hover {
+    box-shadow: 0 0 10px black;
+    cursor: pointer
+}
+
+.scene ul li img {
+    width: 280px;
+    height: 220px
+}
+
+.small {
+    height: 66px;
+    background-color: #F8F8F8;
+    margin-top: 40px;
+    position: relative
+}
+
+.outdoor_one {
+    height: 600px;
+    width: 1000px;
+    border: 5px solid #EBEFF2;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.outdoor_one img {
+    height: 240px;
+    margin: 0 30px
+}
+
+.outdoor_one ul {
+    margin-top: 30px
+}
+
+.outdoor_one ul li:nth-child(1) {
+    width: 500px;
+    font-size: 18px
+}
+
+.outdoor_one ul li {
+    float: left;
+    line-height: 45px;
+    margin-top: 20px
+}
+
+.outdoor_one ul li h1 {
+    font-size: 22px
+}
+
+.outdoor_two {
+    height: 600px;
+    width: 1000px;
+    border: 5px solid #EBEFF2;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.outdoor_two img {
+    height: 240px;
+    margin: 0 30px
+}
+
+.outdoor_two ul {
+    margin-top: 30px
+}
+
+.outdoor_two ul li:nth-child(2) {
+    width: 500px;
+    font-size: 18px;
+    height: 250px
+}
+
+.outdoor_two ul li {
+    float: left;
+    line-height: 50px;
+    margin-top: 20px
+}
+
+.outdoor_two ul li h1 {
+    font-size: 22px
+}
+
+.activity p {
+    font-size: 30px;
+    text-align: center;
+    color: #434C55
+}
+
+.activity hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1080px;
+    margin-left: 50px
+}
+
+.activity_one img {
+    width: 300px;
+    height: 200px;
+    margin-left: 50px
+}
+
+.theme {
+    width: 700px;
+    background-color: #EDEFF1;
+    height: 200px;
+    margin-left: 80px;
+    font-size: 18px;
+    line-height: 50px
+}
+
+.Price {
+    margin: 30px
+}
+
+.Price img {
+    width: 300px;
+    margin: 36px
+}
+
+.Price p {
+    font-size: 30px;
+    text-align: center;
+    background-color: #D7DDE7;
+    width: 1120px;
+}
+
+.cooperation hr {
+    margin: 30px 0
+}
+
+.contact {
+    text-align: center
+}
+
+.data {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.data p {
+    font-size: 22px;
+    text-align: left
+}
+
+.data .name, .data .email, .data .tell {
+    height: 40px;
+    width: 286px;
+    margin-bottom: 12px;
+    margin-right: 10px
+}
+
+.data .Verification {
+    width: 90px;
+    height: 40px
+}
+
+.data .demand {
+    height: 250px;
+    width: 595px
+}
+
+.data .button {
+    height: 35px;
+    width: 130px;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.cap img {
+    height: 400px;
+    width: 1200px;
+    margin-top: 50px
+}
+
+.courses {
+    margin: 50px;
+    font-size: 16px;
+    line-height: 30px
+}
+
+.line hr {
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+.map_left, .map_right, .map_center {
+    width: 330px;
+}
+
+.Staff {
+    height: 360px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px
+}
+
+.Staff p {
+    font-size: 24px;
+    margin-bottom: 50px
+}
+
+.staff {
+    width: 220px;
+    height: 280px;
+    float: left;
+    margin-left: 15px;
+}
+
+.staff .img img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto
+}
+
+.staff h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #5BCBC8
+}
+
+.Ranks {
+    height: 500px;
+    background-color: #FEC20C;
+    margin: 30px 0;
+    text-align: center;
+    font-size: 22px;
+    color: #876D0E
+}
+
+.Ranks_left {
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 130px
+}
+
+.Ranks_right {
+    height: 300px;
+    width: 500px;
+}
+
+.Ranks h1 {
+    font-size: 38px;
+    color: white;
+    padding-top: 20px
+}
+
+.Ranks p {
+    padding: 20px 0
+}
+
+.Ranks_left img {
+    height: 260px;
+    width: 460px;
+    margin-top: 20px
+}
+
+.Ranks_right {
+    text-align: left;
+    color: white;
+    line-height: 50px;
+    font-size: 24px
+}
+
+.project_one {
+    margin: 50px 0
+}
+
+.project_one_left {
+    height: 400px;
+    width: 700px;
+    background-color: #F6F6F6
+}
+
+.project_one_right {
+    height: 400px;
+    width: 380px;
+    font-size: 26px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.project_one_left img {
+    height: 400px
+}
+
+.project_two_left {
+    height: 400px;
+    width: 450px;
+    font-size: 26px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.project_two_right {
+    height: 400px;
+    width: 700px;
+    background-color: #F8F8F8
+}
+
+.project_two_right img {
+    height: 390px;
+    margin-left: 50px
+}
+
+.project_three {
+    margin-top: 50px
+}
+
+.project_three_left {
+    height: 400px;
+    width: 700px;
+    background-color: #FFFFFF
+}
+
+.project_three_right {
+    height: 400px;
+    width: 450px;;
+    font-size: 22px;
+    text-align: center;
+}
+
+.project_three_left img {
+    height: 400px
+}
+
+.project_three_right img {
+    height: 100px;
+    margin-top: 250px
+}
+
+.BOX {
+    height: 80px;
+    width: 360px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left
+}
+
+.box {
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    line-height: 60px
+}
+
+.box p {
+    background-image: url("../img/01.png");
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    line-height: 60px
+}
+
+.team_one:hover {
+    box-shadow: 0 0 10px black;
+    cursor: pointer
+}
+
+.shaow {
+    box-shadow: 0 0 20px black;
+    cursor: pointer
+}
+
+.car_one, .car_two, .car_one_shaow:hover {
+    box-shadow: 0 0 5px black;
+    cursor: pointer
+}
+
+.Shaow, .outdoor img, .img img, .project_one_right, .project_two_left, .project_three_left, .Ranks_left {
+    box-shadow: 0 0 20px black;
+    cursor: pointer
+}
+
+.project_one, .project_two, .project_three {
+    border: 1px solid gainsboro
+}
+
+.outdoor img:hover {
+    box-shadow: 0 0 30px #77D1F8
+}
+
